@@ -7,7 +7,8 @@ console.log("My Service is Loaded");
 
   return {
     getRandomLyric: getRandomLyric,
-    getLyrics: getLyrics
+    getLyrics: getLyrics,
+    display: display
   };
 
   function getLyrics() {
@@ -31,8 +32,10 @@ console.log("My Service is Loaded");
     });
     return p;
   };
+  function display() {
+    return lyrics;
+  }
 
-  return lyrics;
 
 //closure for factory
 });
