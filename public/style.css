@@ -1,0 +1,30 @@
+
+html {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-left: 0 auto;
+  background-image: url('http://verysmartbrothas.com/images/2016/04/bey.jpg');
+  color: yellow;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 60px;
+}
+button {
+  background-color: yellow;
+  color: black;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  border: 10px outset white;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+button:hover {
+  background-color: white;
+}
